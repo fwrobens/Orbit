@@ -1,6 +1,6 @@
 {
   "name": "orbit-assistant",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "private": true,
   "main": "expo-router/entry",
   "scripts": {
@@ -10,14 +10,15 @@
     "typecheck": "tsc --noEmit"
   },
   "dependencies": {
-    "expo": "~58.0.0",
+    "expo": "~58.0.19",
     "expo-router": "*",
     "expo-status-bar": "*",
     "expo-linear-gradient": "*",
     "expo-speech": "*",
     "expo-speech-recognition": "*",
     "@expo/vector-icons": "*",
-    "react": "*",
+    "react": "19.3.1",
+    "react-dom": "19.3.1",
     "react-native": "*",
     "react-native-safe-area-context": "*",
     "react-native-screens": "*",
