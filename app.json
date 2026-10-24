@@ -1,0 +1,35 @@
+{
+  "expo": {
+    "name": "Orbit",
+    "slug": "orbit",
+    "scheme": "orbit",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.orbit.personalassistant",
+      "infoPlist": {
+        "NSMicrophoneUsageDescription": "Orbit needs access to your microphone.",
+        "NSSpeechRecognitionUsageDescription": "Orbit shows live voice transcripts."
+      }
+    },
+    "android": {
+      "package": "com.orbit.personalassistant",
+      "permissions": [
+        "RECORD_AUDIO"
+      ]
+    },
+    "plugins": [
+      "expo-router",
+      [
+        "expo-speech-recognition",
+        {
+          "microphonePermission": "Allow Orbit to access your microphone.",
+          "speechRecognitionPermission": "Allow Orbit to transcribe your voice."
+        }
+      ]
+    ]
+  }
+}
