@@ -1,6 +1,6 @@
 {
   "name": "orbit-assistant",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "private": true,
   "main": "expo-router/entry",
   "scripts": {
@@ -10,23 +10,23 @@
     "typecheck": "tsc --noEmit"
   },
   "dependencies": {
-    "expo": "~54.0.0",
-    "expo-router": "~6.0.0",
-    "expo-status-bar": "~3.0.0",
-    "expo-linear-gradient": "~15.0.0",
-    "expo-speech": "~14.0.0",
-    "expo-speech-recognition": "^3.1.0",
-    "@expo/vector-icons": "^15.0.0",
-    "react": "19.1.0",
-    "react-native": "0.81.4",
-    "react-native-safe-area-context": "~5.6.0",
-    "react-native-screens": "~4.16.0",
-    "react-native-reanimated": "~4.1.0",
-    "react-native-worklets": "0.5.1",
-    "@react-native-async-storage/async-storage": "2.2.0"
+    "expo": "~58.0.0",
+    "expo-router": "*",
+    "expo-status-bar": "*",
+    "expo-linear-gradient": "*",
+    "expo-speech": "*",
+    "expo-speech-recognition": "*",
+    "@expo/vector-icons": "*",
+    "react": "*",
+    "react-native": "*",
+    "react-native-safe-area-context": "*",
+    "react-native-screens": "*",
+    "react-native-reanimated": "*",
+    "react-native-worklets": "*",
+    "@react-native-async-storage/async-storage": "*"
   },
   "devDependencies": {
-    "typescript": "~5.9.2",
-    "@types/react": "~19.1.10"
+    "typescript": "*",
+    "@types/react": "*"
   }
 }
